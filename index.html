@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Design Studio, Portfolio, Logo Design, UI/UX, Graphic Design, Web Development">
+    <meta name="description" content="Professional Design Studio - Creating stunning logos, UI/UX designs, and complete brand identities">
+    <title>Design Studio Portfolio - Home</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+    <link rel="stylesheet" href="index.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <style>
+        .nav-button.active {
+            background-color: #091CCC !important;
+        }
+        
+        /* Hover animation for navigation buttons */
+        .nav-button:hover {
+            background-color: rgba(9, 28, 204, 0.3) !important;
+            transform: scale(1.05) !important;
+            transition: all 0.3s ease !important;
+        }
+        
+        
+        .u-section-1, .u-section-2, .u-section-3, .u-section-4, .u-section-5 {
+            background-color: #1c1c2b !important;
+        }
+        
+        .u-white {
+            background-color: #1c1c2b !important;
+        }
+        
+        /* Change all red colors to blue */
+        .u-text-palette-2-base, h1, h2, h3, h4, h5, h6 {
+            color: #091CCC !important;
+        }
+        
+        /* Make all text white */
+        p, span, div, a, li, td, th, label, input, textarea, select, .u-text {
+            color: white !important;
+        }
+        
+    </style>
+    <script>
+        function setActiveButton(clickedButton) {
+            // Remove active class from all nav buttons
+            document.querySelectorAll('.nav-button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            // Add active class to clicked button
+            clickedButton.classList.add('active');
+        }
+    </script>
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900">
+    
+    <style>
+        @font-face {
+            font-family: 'Contralto Big Black Italic';
+            src: url('fonnts.com-Contralto_Big_Black_Italic.woff') format('woff'),
+                 url('fonnts.com-Contralto_Big_Black_Italic.ttf') format('truetype');
+            font-weight: normal;
+            font-style: italic;
+        }
+        
+        .portfolio-title {
+            font-family: 'Contralto Big Black Italic', sans-serif !important;
+        }
+        
+    </style>
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "Yasine Ouchen - Graphic & Web Designer",
+		"logo": "images/default-logo.png"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Design Studio Portfolio">
+    <meta property="og:type" content="website">
+    <meta data-intl-tel-input-cdn-path="intlTelInput/">
+</head>
+<body data-home-page="index.html" data-home-page-title="Home" data-path-to-root="./" data-include-products="false" class="u-body u-clearfix u-xl-mode" data-lang="en">
+    
+    <!-- Header -->
+    <header class="u-clearfix u-header u-header" id="header" style="background-color: #1d1d2d;">
+        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1" style="background-color: #1d1d2d;">
+            <a href="#" class="u-image u-logo u-image-1">
+                <img src="Images/logo.png" class="u-logo-image u-logo-image-1" style="width: 2.5cm; height: 2.5cm;">
+            </a>
+            <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1" role="navigation" aria-label="Menu navigation">
+                <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+                    <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-hamburger-link u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" tabindex="-1" aria-label="Open menu" aria-controls="f6b9">
+                        <svg class="u-svg-link" viewBox="0 0 24 24"><use xlink:href="#menu-hamburger"></use></svg>
+                        <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                            <g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect></g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="u-nav-container">
+                    <ul class="u-nav u-unstyled u-nav-1" role="menubar">
+                        <li class="u-nav-item" role="none"><a class="u-button-style u-nav-link nav-button" href="#home" onclick="showSection('home'); setActiveButton(this)" style="padding: 10px 20px; color: white; border-radius: 5px; margin: 0 5px; transition: all 0.3s;" role="menuitem">Home</a></li>
+                        <li class="u-nav-item" role="none"><a class="u-button-style u-nav-link nav-button" href="#about" onclick="showSection('about'); setActiveButton(this)" style="padding: 10px 20px; color: white; border-radius: 5px; margin: 0 5px; transition: all 0.3s;" role="menuitem">About</a></li>
+                        <li class="u-nav-item" role="none"><a class="u-button-style u-nav-link nav-button" href="#contact" onclick="showSection('contact'); setActiveButton(this)" style="padding: 10px 20px; color: white; border-radius: 5px; margin: 0 5px; transition: all 0.3s;" role="menuitem">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="u-nav-container-collapse" id="f6b9" role="region" aria-label="Menu panel">
+                    <div class="u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav" style="background-color: #1d1d2d;">
+                        <div class="u-inner-container-layout u-sidenav-overflow">
+                            <div class="u-menu-close" tabindex="-1" aria-label="Close menu"></div>
+                            <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="#home" onclick="showSection('home')">Home</a></li>
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="#about" onclick="showSection('about')">About</a></li>
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="#contact" onclick="showSection('contact')">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="u-menu-overlay u-opacity u-opacity-70" style="background-color: #1d1d2d;"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HOME SECTION -->
+    <div id="home" class="page-section">
+    
+    <!-- Hero Section -->
+    <section class="u-clearfix u-section-1" id="sec-hero" style="min-height: 500px; background-color: #1c1c2b;">
+        <div class="u-clearfix u-sheet u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+            <div class="custom-expanded u-align-center u-container-align-center u-container-align-left u-container-style u-group u-radius-20 u-shape-round" style="background: #1d1d2d; backdrop-filter: blur(10px);" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
+                <div class="u-container-layout u-valign-middle u-container-layout-1" style="padding: 40px;">
+                    <img src="Images/banner.png" alt="Header Image" style="width: 100%; height: auto; margin-bottom: 20px; border-radius: 10px;">
+                    <p class="u-align-left u-text u-text-default u-text-3" style="color: #4A5568;">Professional design solutions for your business - from brand identity to digital experiences that captivate and convert.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Do Section -->
+    <section class="u-align-center-lg u-align-center-md u-align-center-xl u-align-left-sm u-align-left-xs u-clearfix u-container-align-center-xl u-section-2" id="sec-services" style="background-color: #464554;">
+        <div class="u-clearfix u-sheet u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-valign-middle-xs u-sheet-1">
+            <h2 class="u-align-center u-text u-text-default u-text-palette-2-base u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1500">What We Do</h2>
+            <div class="u-align-center" style="max-width: 700px; margin: 40px auto; padding: 40px 20px;">
+                <p class="u-text" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="250" style="color: white; font-size: 1.3rem; line-height: 1.8; margin-bottom: 20px;">I specialize in creating distinctive logo designs and comprehensive brand identity solutions for businesses of all sizes.</p>
+                
+                <p class="u-text" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="400" style="color: white; font-size: 1.3rem; line-height: 1.8; margin-bottom: 0;">From concept to complete brand guidelines, I deliver personalized designs that make your business memorable and professional.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Portfolio Section -->
+    <section class="u-align-center u-clearfix u-container-align-center u-section-3" id="sec-portfolio" style="background-color: #464554;">
+        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1" style="background-color: #464554;">
+            <h2 class="u-align-center u-text u-text-default u-text-palette-2-base u-text-1 portfolio-title" data-animation-name="customAnimationIn" data-animation-duration="1500" style="color: #0D0D16;">Our Portfolio</h2>
+            <p class="u-align-center u-text u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="250" style="color: #0D0D16;">Explore our diverse collection of creative projects and design solutions that have helped businesses achieve their goals.</p>
+            
+            <div class="gallery-container" style="padding: 60px 20px; max-width: 1200px; margin: 0 auto;">
+                <div class="gallery-grid" style="display: grid; grid-template-columns: 1fr; gap: 30px; margin-top: 40px; max-width: 800px; margin-left: auto; margin-right: auto;">
+                    
+                    <!-- Goose & Gander Luxury Jewelry Project -->
+                    <div class="gallery-item" style="background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                        <img src="Images/1.png" alt="Goose & Gander Luxury Jewelry" style="width: 100%; height: auto; max-height: none; object-fit: contain; border-radius: 15px; margin-bottom: 15px;">
+                        <h3 style="color: #272733 !important; margin-bottom: 10px; font-size: 1.4rem;">Goose & Gander Luxury Jewelry</h3>
+                        <p style="color: #272733 !important; line-height: 1.6;">Sophisticated and elegant brand identity for Goose & Gander, a premium jewelry company. Features luxurious gold and navy color palette, refined typography (Palatino), comprehensive brand guidelines, mobile application design, and complete visual identity system emphasizing exclusivity and craftsmanship.</p>
+                    </div>
+
+                    <!-- Yasin Personal Logo Project -->
+                    <div class="gallery-item" style="background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                        <img src="Images/2.png" alt="Yasin Ouchen Personal Logo Design" style="width: 100%; height: auto; max-height: none; object-fit: contain; border-radius: 15px; margin-bottom: 15px;">
+                        <h3 style="color: #272733 !important; margin-bottom: 10px; font-size: 1.4rem;">Yasin Ouchen Personal Logo Design</h3>
+                        <p style="color: #272733 !important; line-height: 1.6;">My personal logo as a graphic designer, creatively transforming the letter "Y" (first letter of my name) into a modern wolf head design. The logo features a clean, minimalist aesthetic with white color and subtle purple-grey accents. The wolf symbolism connects to my heritage - "Ouchen" means wolf in Tamazight, making this design both personal and culturally meaningful.</p>
+                    </div>
+
+                    <!-- YODEL Delivery Agency Project -->
+                    <div class="gallery-item" style="background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                        <img src="Images/3.png" alt="YODEL Delivery Agency Branding" style="width: 100%; height: auto; max-height: none; object-fit: contain; border-radius: 15px; margin-bottom: 15px;">
+                        <h3 style="color: #272733 !important; margin-bottom: 10px; font-size: 1.4rem;">YODEL Delivery Agency</h3>
+                        <p style="color: #272733 !important; line-height: 1.6;">Brand identity for YODEL, a delivery agency whose name cleverly combines "Younes" (the founder's name) with "Delivery" to create a memorable brand. The logo features three brown boxes that immediately communicate the delivery service concept. This simple yet effective design approach creates instant brand recognition while maintaining a professional and trustworthy appearance for the logistics industry.</p>
+                    </div>
+
+                    <!-- Atelier Fourneau Project -->
+                    <div class="gallery-item" style="background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                        <img src="Images/4.png" alt="Atelier Fourneau Fire-Inspired Logo" style="width: 100%; height: auto; max-height: none; object-fit: contain; border-radius: 15px; margin-bottom: 15px;">
+                        <h3 style="color: #272733 !important; margin-bottom: 10px; font-size: 1.4rem;">Atelier Fourneau</h3>
+                        <p style="color: #272733 !important; line-height: 1.6;">Fire-inspired logo design for Atelier Fourneau, featuring dynamic yellow and blue flames that embody the essence of craftsmanship and creativity. The flame motif symbolizes the transformative power of artisanal work, where raw materials are shaped through skill and passion. The striking color combination creates visual impact while representing the heat and energy of the creative process in traditional craftsmanship.</p>
+                    </div>
+
+                    <!-- Sofi Brand Project -->
+                    <div class="gallery-item" style="background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                        <img src="Images/5.png" alt="Sofi Brand Logo Design" style="width: 100%; height: auto; max-height: none; object-fit: contain; border-radius: 15px; margin-bottom: 15px;">
+                        <h3 style="color: #272733 !important; margin-bottom: 10px; font-size: 1.4rem;">Sofi Brand</h3>
+                        <p style="color: #272733 !important; line-height: 1.6;">Elegant brand identity for Sofi, inspired by premium brands like Dove. The logo cleverly transforms a goose silhouette into the letter "S", creating a sophisticated dual-meaning design. The gentle color palette features soft purple and cream tones that convey elegance, purity, and premium quality. This approach combines natural beauty with typographic creativity, resulting in a memorable and refined brand identity.</p>
+                    </div>
+
+                    <!-- Qamar.tech Project -->
+                    <div class="gallery-item" style="background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                        <img src="Images/6.png" alt="Qamar.tech Technology Brand Logo" style="width: 100%; height: auto; max-height: none; object-fit: contain; border-radius: 15px; margin-bottom: 15px;">
+                        <h3 style="color: #272733 !important; margin-bottom: 10px; font-size: 1.4rem;">Qamar.tech</h3>
+                        <p style="color: #272733 !important; line-height: 1.6;">Technology brand identity for Qamar.tech, a company specializing in camera installations, TV systems, and related electronic products. The brand name honors the owner's daughter "Qamar," which means "moon" in English. The logo creatively transforms the letter "Q" into a moon shape, creating a personal and meaningful connection between the family name and the brand identity while maintaining a professional tech-focused appearance.</p>
+                    </div>
+
+                    <!-- Baby Goat Care Project -->
+                    <div class="gallery-item" style="background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                        <img src="Images/7.png" alt="Baby Goat Care Brand Logo" style="width: 100%; height: auto; max-height: none; object-fit: contain; border-radius: 15px; margin-bottom: 15px;">
+                        <h3 style="color: #272733 !important; margin-bottom: 10px; font-size: 1.4rem;">Baby Goat Care</h3>
+                        <p style="color: #272733 !important; line-height: 1.6;">Charming brand identity for a baby goat care company specializing in products and services for young goats. The logo features a clean, modern serif font with a delightful twist — a baby goat's head cleverly replaces the letter "T". This playful yet professional design creates instant brand recognition while conveying the friendly, caring nature of the brand and its dedication to baby goat welfare.</p>
+                    </div>
+
+                    <!-- Arabic Bakery Project -->
+                    <div class="gallery-item" style="background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                        <img src="Images/8.png" alt="مخبزة Arabic Bakery Brand Logo" style="width: 100%; height: auto; max-height: none; object-fit: contain; border-radius: 15px; margin-bottom: 15px;">
+                        <h3 style="color: #272733 !important; margin-bottom: 10px; font-size: 1.4rem;">مخبزة (Arabic Bakery)</h3>
+                        <p style="color: #272733 !important; line-height: 1.6;">Classic bakery brand identity featuring Arabic typography with the name "مخبزة" (bakery). The design uses the modern and elegant Muslimah Thin font for clean readability while maintaining cultural authenticity. The logo incorporates a traditional barley ear illustration that immediately communicates the bakery's connection to fresh grains and artisanal bread-making, creating a timeless and trustworthy brand for the local community.</p>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    </div> <!-- End of Home Section -->
+
+    <!-- ABOUT SECTION -->
+    <div id="about" class="page-section" style="display: none;">
+        <section class="u-clearfix u-white u-section-about">
+            <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+                <div class="u-container-style u-group u-radius-20 u-shape-round u-white u-group-1" style="padding: 60px 40px;">
+                    <div class="u-container-layout u-container-layout-1">
+                        <h1 class="u-align-center u-text u-text-palette-2-base u-text-1" style="margin-bottom: 30px;">About</h1>
+                        <p class="u-align-center u-text u-text-2" style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 40px;">
+                            I'm Yasin Ouchen, a passionate graphic designer and visual artist with 6 years of professional experience in creating 
+                            distinctive brand identities and memorable logo designs. My artistic background as a visual artist enhances my graphic 
+                            design capabilities, allowing me to bring unique creative perspectives to every project.
+                        </p>
+                        
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; margin-top: 50px;">
+                            <div class="u-container-style u-group u-radius-15 u-shape-round" style="background-color: #3c3c4c; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); text-align: center;">
+                                <div style="height: 100%; display: flex; flex-direction: column; justify-content: flex-start;">
+                                    <h3 style="color: white !important; margin: 0 0 20px 0; font-size: 1.4rem; font-weight: bold;">Creative Philosophy</h3>
+                                    <p style="color: white !important; line-height: 1.6; margin: 0; text-align: left;">
+                                        I believe that great design is born from the perfect blend of artistic vision and strategic thinking. 
+                                        My passion for design creation drives me to craft visual identities that not only look exceptional 
+                                        but also communicate your brand's essence effectively.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="u-container-style u-group u-radius-15 u-shape-round" style="background-color: #3c3c4c; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); text-align: center;">
+                                <div style="height: 100%; display: flex; flex-direction: column; justify-content: flex-start;">
+                                    <h3 style="color: white !important; margin: 0 0 20px 0; font-size: 1.4rem; font-weight: bold;">Professional Experience</h3>
+                                    <p style="color: white !important; line-height: 1.6; margin: 0; text-align: left;">
+                                        With 6 years of dedicated experience in graphic design and logo creation, I have developed a comprehensive 
+                                        understanding of brand identity development, working with diverse clients across various industries to 
+                                        establish powerful visual communications.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="u-container-style u-group u-radius-15 u-shape-round" style="background-color: #3c3c4c; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); text-align: center;">
+                                <div style="height: 100%; display: flex; flex-direction: column; justify-content: flex-start;">
+                                    <h3 style="color: white !important; margin: 0 0 20px 0; font-size: 1.4rem; font-weight: bold;">Artistic Background</h3>
+                                    <p style="color: white !important; line-height: 1.6; margin: 0; text-align: left;">
+                                        My foundation as a visual artist provides me with a unique advantage in graphic design, enabling me to 
+                                        approach each project with creative innovation and artistic depth that transforms ordinary brands into 
+                                        extraordinary visual experiences.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div style="text-align: center; margin-top: 50px;">
+                            <h3 class="u-text u-text-palette-2-base" style="margin-bottom: 20px;">Why Work With Me?</h3>
+                            <ul style="list-style: none; padding: 0; display: inline-block; text-align: left;">
+                                <li style="margin: 10px 0; font-size: 1.1rem;">✓ 6 years of professional graphic design expertise</li>
+                                <li style="margin: 10px 0; font-size: 1.1rem;">✓ Unique artistic perspective as a visual artist</li>
+                                <li style="margin: 10px 0; font-size: 1.1rem;">✓ Passionate dedication to design creation excellence</li>
+                                <li style="margin: 10px 0; font-size: 1.1rem;">✓ Comprehensive logo and brand identity solutions</li>
+                                <li style="margin: 10px 0; font-size: 1.1rem;">✓ Personalized approach to every client project</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <div id="contact" class="page-section" style="display: none;">
+        <section class="u-clearfix u-gradient u-section-contact">
+            <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+                <div class="u-container-style u-group u-radius-20 u-shape-round u-white u-group-1" style="padding: 60px 40px;">
+                    <div class="u-container-layout u-container-layout-1">
+                        <h1 class="u-align-center u-text u-text-palette-2-base u-text-1" style="margin-bottom: 30px;">Get In Touch</h1>
+                        <p class="u-align-center u-text u-text-2" style="font-size: 1.2rem; margin-bottom: 50px;">
+                            Ready to start your next project? We'd love to hear from you! Contact us today and let's discuss 
+                            how we can help bring your vision to life.
+                        </p>
+                        
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 50px;">
+                            <!-- Contact Form -->
+                            <div>
+                                <h3 class="u-text u-text-palette-2-base" style="margin-bottom: 20px;">Send us a message</h3>
+                                <form style="max-width: 500px;">
+                                    <div style="margin-bottom: 20px;">
+                                        <input type="text" placeholder="Your Name" required 
+                                               style="width: 100%; padding: 15px; border: 2px solid #e1e5e9; border-radius: 10px; font-size: 1rem;">
+                                    </div>
+                                    <div style="margin-bottom: 20px;">
+                                        <input type="email" placeholder="Your Email" required 
+                                               style="width: 100%; padding: 15px; border: 2px solid #e1e5e9; border-radius: 10px; font-size: 1rem;">
+                                    </div>
+                                    <div style="margin-bottom: 20px;">
+                                        <input type="text" placeholder="Subject" required 
+                                               style="width: 100%; padding: 15px; border: 2px solid #e1e5e9; border-radius: 10px; font-size: 1rem;">
+                                    </div>
+                                    <div style="margin-bottom: 20px;">
+                                        <textarea placeholder="Your Message" rows="5" required 
+                                                  style="width: 100%; padding: 15px; border: 2px solid #e1e5e9; border-radius: 10px; font-size: 1rem; resize: vertical;"></textarea>
+                                    </div>
+                                    <button type="submit" 
+                                            style="background: linear-gradient(45deg, #4A90E2, #357ABD); color: white; border: none; padding: 15px 30px; border-radius: 25px; font-size: 1rem; cursor: pointer; transition: all 0.3s ease;">
+                                        Send Message
+                                    </button>
+                                </form>
+                            </div>
+                            
+                            <!-- Contact Information -->
+                            <div>
+                                <h3 class="u-text u-text-palette-2-base" style="margin-bottom: 20px;">Contact Information</h3>
+                                <div style="margin-bottom: 30px;">
+                                    <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                                        <span style="width: 40px; height: 40px; background: #4A90E2; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; color: white;">📧</span>
+                                        <div>
+                                            <strong>Email</strong><br>
+                                            yasine.ouchen@gmail.com
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                                        <span style="width: 40px; height: 40px; background: #4A90E2; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; color: white;">📞</span>
+                                        <div>
+                                            <strong>Phone</strong><br>
+                                            +1 (555) 123-4567
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                                        <span style="width: 40px; height: 40px; background: #4A90E2; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; color: white;">📍</span>
+                                        <div>
+                                            <strong>Address</strong><br>
+                                            123 Design Street, Creative City, CC 12345
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <h4 class="u-text u-text-palette-2-base" style="margin-bottom: 15px;">Business Hours</h4>
+                                <p style="line-height: 1.6;">
+                                    Monday - Friday: 9:00 AM - 6:00 PM<br>
+                                    Saturday: 10:00 AM - 4:00 PM<br>
+                                    Sunday: Closed
+                                </p>
+                                
+                                <h4 class="u-text u-text-palette-2-base" style="margin-top: 30px; margin-bottom: 15px;">Follow Us</h4>
+                                <div style="display: flex; gap: 15px;">
+                                    <a href="#" style="width: 40px; height: 40px; background: #4A90E2; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none;">📘</a>
+                                    <a href="#" style="width: 40px; height: 40px; background: #4A90E2; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none;">🐦</a>
+                                    <a href="#" style="width: 40px; height: 40px; background: #4A90E2; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none;">📷</a>
+                                    <a href="#" style="width: 40px; height: 40px; background: #4A90E2; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none;">💼</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="u-align-center u-clearfix u-container-align-center u-footer u-grey-80 u-footer" id="footer">
+        <div class="u-clearfix u-sheet u-sheet-1">
+            <p class="u-small-text u-text u-text-variant u-text-1">© 2025 Yasine Ouchen - Graphic & Web Designer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <style>
+        /* Black footer styling */
+        .u-footer.u-grey-80 {
+            background-color: #000000 !important;
+        }
+        
+        .u-footer.u-grey-80 .u-text {
+            color: #ffffff !important;
+        }
+        
+        /* Enhanced hover effects for clickable portfolio items */
+        .u-list-item[onclick]:hover {
+            transform: translateY(-5px) !important;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15) !important;
+            transition: all 0.3s ease !important;
+        }
+
+        .u-list-item[onclick] {
+            transition: all 0.3s ease !important;
+            cursor: pointer !important;
+        }
+
+        .u-list-item[onclick]:hover .u-image {
+            transform: scale(1.05) !important;
+            transition: transform 0.3s ease !important;
+        }
+
+        .u-list-item[onclick]:hover h5,
+        .u-list-item[onclick]:hover h6 {
+            color: #4A90E2 !important;
+            transition: color 0.3s ease !important;
+        }
+
+        /* Mobile responsive styles for portfolio cards - Updated Nov 13 */
+        @media (max-width: 768px) {
+            .gallery-item {
+                padding: 15px !important;
+                margin: 0 5px !important;
+            }
+            
+            .gallery-item img {
+                height: 320px !important;
+                object-fit: contain !important;
+                width: 100% !important;
+            }
+            
+            .gallery-container {
+                padding: 5px 5px !important;
+            }
+            
+            .gallery-grid {
+                gap: 5px !important;
+                margin-top: 5px !important;
+                max-width: 100% !important;
+            }
+            
+            /* Make banner image take full screen width on mobile */
+            .u-container-layout-1 img[alt="Header Image"] {
+                height: 250px !important;
+                width: 100vw !important;
+                object-fit: contain !important;
+                margin-bottom: 15px !important;
+                margin-top: -80px !important;
+                margin-left: calc(-50vw + 50%) !important;
+                margin-right: calc(-50vw + 50%) !important;
+            }
+            
+            /* Center the Our Portfolio title on mobile */
+            .gallery-container h2 {
+                text-align: center !important;
+            }
+            
+            /* Make logo smaller on mobile */
+            .u-logo-image {
+                width: 1cm !important;
+                height: 1cm !important;
+            }
+            
+            /* Move text closer to banner on mobile */
+            .u-container-layout-1 p {
+                margin-top: -20px !important;
+                padding-top: 0 !important;
+            }
+        }
+
+        /* Fullscreen Image Modal */
+        .image-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 9999;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .image-modal.show {
+            display: flex;
+            opacity: 1;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-content {
+            max-width: 95%;
+            max-height: 95%;
+            transform: scale(0.8);
+            transition: transform 0.3s ease;
+        }
+
+        .image-modal.show .modal-content {
+            transform: scale(1);
+        }
+
+        .modal-image {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            user-select: none;
+            transition: color 0.3s ease;
+        }
+
+        .close-modal:hover {
+            color: #ccc;
+        }
+
+        /* Page section transitions */
+        .page-section {
+            opacity: 1;
+            transition: opacity 0.5s ease-in-out;
+            min-height: 100vh;
+        }
+
+        .page-section.fade-out {
+            opacity: 0;
+        }
+
+        /* Active navigation link styling */
+        .nav-link-active {
+            background: linear-gradient(45deg, #4A90E2, #357ABD) !important;
+            color: white !important;
+            border-radius: 20px !important;
+        }
+    </style>
+
+    <script>
+        // Function to show specific section and hide others
+        function showSection(sectionId) {
+            // Get all page sections
+            const sections = document.querySelectorAll('.page-section');
+            const navLinks = document.querySelectorAll('.u-nav-link');
+            
+            // Remove active class from all navigation links
+            navLinks.forEach(link => {
+                link.classList.remove('nav-link-active');
+            });
+            
+            // Add active class to clicked navigation link
+            const activeLink = document.querySelector(`a[href="#${sectionId}"]`);
+            if (activeLink) {
+                activeLink.classList.add('nav-link-active');
+            }
+            
+            // Hide all sections with fade effect
+            sections.forEach(section => {
+                section.style.display = 'none';
+            });
+            
+            // Show the target section
+            const targetSection = document.getElementById(sectionId);
+            if (targetSection) {
+                targetSection.style.display = 'block';
+                // Scroll to top when switching sections
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        }
+
+        // Set home as active section when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            showSection('home');
+        });
+
+        // Handle hash changes in URL
+        window.addEventListener('hashchange', function() {
+            const hash = window.location.hash.substring(1);
+            if (hash && ['home', 'about', 'contact'].includes(hash)) {
+                showSection(hash);
+            }
+        });
+
+        // Check URL hash on page load
+        window.addEventListener('load', function() {
+            const hash = window.location.hash.substring(1);
+            if (hash && ['home', 'about', 'contact'].includes(hash)) {
+                showSection(hash);
+            } else {
+                showSection('home');
+            }
+        });
+
+        // Fullscreen Image Modal functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            const closeBtn = document.getElementById('closeModal');
+
+            // Add click event to all portfolio images
+            document.querySelectorAll('.gallery-item img').forEach(img => {
+                img.style.cursor = 'pointer';
+                img.addEventListener('click', function() {
+                    modal.style.display = 'flex';
+                    modalImg.src = this.src;
+                    modalImg.alt = this.alt;
+                    setTimeout(() => modal.classList.add('show'), 10);
+                });
+            });
+
+            // Close modal when clicking X
+            closeBtn.addEventListener('click', function() {
+                closeModal();
+            });
+
+            // Close modal when clicking outside the image
+            modal.addEventListener('click', function(e) {
+                if (e.target === modal) {
+                    closeModal();
+                }
+            });
+
+            // Close modal with Escape key
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    closeModal();
+                }
+            });
+
+            function closeModal() {
+                modal.classList.remove('show');
+                setTimeout(() => modal.style.display = 'none', 300);
+            }
+        });
+    </script>
+
+    <!-- Image Modal -->
+    <div class="image-modal" id="imageModal">
+        <span class="close-modal" id="closeModal">&times;</span>
+        <div class="modal-content">
+            <img class="modal-image" id="modalImage" src="" alt="">
+        </div>
+    </div>
+
+</body>
+</html>
