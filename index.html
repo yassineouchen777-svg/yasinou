@@ -300,22 +300,25 @@
                             <!-- Contact Form -->
                             <div>
                                 <h3 class="u-text u-text-palette-2-base" style="margin-bottom: 20px;">Send us a message</h3>
-                                <form style="max-width: 500px;">
+                                <form action="https://api.web3forms.com/submit" method="POST" style="max-width: 500px;">
+                                    <input type="hidden" name="access_key" value="54a8757d-54bf-4275-a159-9fc82115bee8">
+                                    <input type="hidden" name="subject" value="New Contact Form Submission">
+                                    <input type="hidden" name="from_name" value="Portfolio Website">
                                     <div style="margin-bottom: 20px;">
-                                        <input type="text" placeholder="Your Name" required 
-                                               style="width: 100%; padding: 15px; border: 2px solid #e1e5e9; border-radius: 10px; font-size: 1rem;">
+                                        <input type="text" name="name" placeholder="Your Name" required 
+                                               style="width: 100%; padding: 15px; border: 2px solid #e1e5e9; border-radius: 10px; font-size: 1rem; color: #000000 !important; background-color: #ffffff !important;">
                                     </div>
                                     <div style="margin-bottom: 20px;">
-                                        <input type="email" placeholder="Your Email" required 
-                                               style="width: 100%; padding: 15px; border: 2px solid #e1e5e9; border-radius: 10px; font-size: 1rem;">
+                                        <input type="email" name="email" placeholder="Your Email" required 
+                                               style="width: 100%; padding: 15px; border: 2px solid #e1e5e9; border-radius: 10px; font-size: 1rem; color: #000000 !important; background-color: #ffffff !important;">
                                     </div>
                                     <div style="margin-bottom: 20px;">
-                                        <input type="text" placeholder="Subject" required 
-                                               style="width: 100%; padding: 15px; border: 2px solid #e1e5e9; border-radius: 10px; font-size: 1rem;">
+                                        <input type="text" name="phone" placeholder="Phone (Optional)" 
+                                               style="width: 100%; padding: 15px; border: 2px solid #e1e5e9; border-radius: 10px; font-size: 1rem; color: #000000 !important; background-color: #ffffff !important;">
                                     </div>
                                     <div style="margin-bottom: 20px;">
-                                        <textarea placeholder="Your Message" rows="5" required 
-                                                  style="width: 100%; padding: 15px; border: 2px solid #e1e5e9; border-radius: 10px; font-size: 1rem; resize: vertical;"></textarea>
+                                        <textarea name="message" placeholder="Your Message" rows="5" required 
+                                                  style="width: 100%; padding: 15px; border: 2px solid #e1e5e9; border-radius: 10px; font-size: 1rem; resize: vertical; color: #000000 !important; background-color: #ffffff !important;"></textarea>
                                     </div>
                                     <button type="submit" 
                                             style="background: linear-gradient(45deg, #4A90E2, #357ABD); color: white; border: none; padding: 15px 30px; border-radius: 25px; font-size: 1rem; cursor: pointer; transition: all 0.3s ease;">
@@ -329,24 +332,31 @@
                                 <h3 class="u-text u-text-palette-2-base" style="margin-bottom: 20px;">Contact Information</h3>
                                 <div style="margin-bottom: 30px;">
                                     <div style="display: flex; align-items: center; margin-bottom: 20px;">
-                                        <span style="width: 40px; height: 40px; background: #4A90E2; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; color: white;">📧</span>
+                                        <span style="width: 40px; height: 40px; background: #B0B5BB; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; color: white; font-size: 16px; font-weight: bold;">@</span>
                                         <div>
                                             <strong>Email</strong><br>
-                                            yasine.ouchen@gmail.com
+                                            <a href="mailto:mr.oudesign@gmail.com" style="color: #4A90E2; text-decoration: none;">mr.oudesign@gmail.com</a>
                                         </div>
                                     </div>
                                     <div style="display: flex; align-items: center; margin-bottom: 20px;">
-                                        <span style="width: 40px; height: 40px; background: #4A90E2; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; color: white;">📞</span>
+                                        <span style="width: 40px; height: 40px; background: #B0B5BB; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; color: white; font-size: 16px; font-weight: bold;">☎</span>
                                         <div>
                                             <strong>Phone</strong><br>
-                                            +1 (555) 123-4567
+                                            <a href="tel:+212655699952" style="color: #4A90E2; text-decoration: none;">+212 655 699 952</a>
                                         </div>
                                     </div>
                                     <div style="display: flex; align-items: center; margin-bottom: 20px;">
-                                        <span style="width: 40px; height: 40px; background: #4A90E2; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; color: white;">📍</span>
+                                        <span style="width: 40px; height: 40px; background: #B0B5BB; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; color: white; font-size: 16px; font-weight: bold;">W</span>
                                         <div>
-                                            <strong>Address</strong><br>
-                                            123 Design Street, Creative City, CC 12345
+                                            <strong>WhatsApp</strong><br>
+                                            <a href="https://wa.me/212776444276" target="_blank" style="color: #4A90E2; text-decoration: none;">+212 776-444276</a>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                                        <span style="width: 40px; height: 40px; background: #B0B5BB; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; color: white; font-size: 16px; font-weight: bold;">📍</span>
+                                        <div>
+                                            <strong>Location</strong><br>
+                                            Agadir City, Morocco
                                         </div>
                                     </div>
                                 </div>
@@ -358,12 +368,23 @@
                                     Sunday: Closed
                                 </p>
                                 
-                                <h4 class="u-text u-text-palette-2-base" style="margin-top: 30px; margin-bottom: 15px;">Follow Us</h4>
-                                <div style="display: flex; gap: 15px;">
-                                    <a href="#" style="width: 40px; height: 40px; background: #4A90E2; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none;">📘</a>
-                                    <a href="#" style="width: 40px; height: 40px; background: #4A90E2; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none;">🐦</a>
-                                    <a href="#" style="width: 40px; height: 40px; background: #4A90E2; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none;">📷</a>
-                                    <a href="#" style="width: 40px; height: 40px; background: #4A90E2; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none;">💼</a>
+                                <h4 class="u-text u-text-palette-2-base" style="margin-top: 30px; margin-bottom: 15px;">Follow Me</h4>
+                                <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                                    <a href="https://www.facebook.com/yasindesign" target="_blank" style="width: 40px; height: 40px; background: #B0B5BB; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none;" title="Facebook">
+                                        <img src="icons/facebook.png" alt="Facebook" style="width: 20px; height: 20px;" onerror="this.style.display='none'; this.parentNode.innerHTML='f'; this.parentNode.style.fontSize='16px'; this.parentNode.style.fontWeight='bold';">
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/yassine-ou-68120634b/" target="_blank" style="width: 40px; height: 40px; background: #B0B5BB; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none;" title="LinkedIn">
+                                        <img src="icons/linkedin.png" alt="LinkedIn" style="width: 20px; height: 20px;" onerror="this.style.display='none'; this.parentNode.innerHTML='in'; this.parentNode.style.fontSize='16px'; this.parentNode.style.fontWeight='bold';">
+                                    </a>
+                                    <a href="https://x.com/Yashe778" target="_blank" style="width: 40px; height: 40px; background: #B0B5BB; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none;" title="Twitter/X">
+                                        <img src="icons/twitter.png" alt="Twitter" style="width: 20px; height: 20px;" onerror="this.style.display='none'; this.parentNode.innerHTML='X'; this.parentNode.style.fontSize='16px'; this.parentNode.style.fontWeight='bold';">
+                                    </a>
+                                    <a href="https://www.tiktok.com/@yasin.designs" target="_blank" style="width: 40px; height: 40px; background: #B0B5BB; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none;" title="TikTok">
+                                        <img src="icons/tik-tok.png" alt="TikTok" style="width: 20px; height: 20px;" onerror="this.style.display='none'; this.parentNode.innerHTML='TT'; this.parentNode.style.fontSize='16px'; this.parentNode.style.fontWeight='bold';">
+                                    </a>
+                                    <a href="https://wa.me/212776444276" target="_blank" style="width: 40px; height: 40px; background: #B0B5BB; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none;" title="WhatsApp">
+                                        <img src="icons/whatsapp.png" alt="WhatsApp" style="width: 20px; height: 20px;" onerror="this.style.display='none'; this.parentNode.innerHTML='W'; this.parentNode.style.fontSize='16px'; this.parentNode.style.fontWeight='bold';">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -636,6 +657,7 @@
             }
         });
     </script>
+
 
     <!-- Image Modal -->
     <div class="image-modal" id="imageModal">
